@@ -29,7 +29,7 @@ const createAnimalListItem = function (form) {
     species.textContent = form.species.value;
     animalListItem.appendChild(species);
 
-    const continent = document.createElement('p');
+    const continent = document.createElement('h4');
     continent.textContent = form.continent.value;
     animalListItem.appendChild(continent);
 
